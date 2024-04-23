@@ -2,7 +2,7 @@
 
 To monitor seat usage for a large number of users, it may be convenient to install our *On-premise License Server*.
 This will be especially important if the SmartGit installations of your users are not allowed to connect to our central cloud license server.
-
+ff
 ## Requirements
 
 To run our on-premise server, only Docker is required. This document describes how to set up the *On-premise License Server* in a plain docker environment. If you need to run the server in a more sophisticated environment, like in Kubernetes, please contact our support. Please also note, by default the *On-premise License Server* uses an embedded database that will store data in a volume. Running multiple instances of the *On-premise License Server* in a Kubernetes environment is not supported.
